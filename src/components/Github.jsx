@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useLoaderData } from "react-router-dom";
 
-// useEffect(async () => {
-// 	await fetch("https://api.github.com/users/octocat").then((response) =>
+// useEffect(() => {
+// 	const data = fetch("https://cat-fact.herokuapp.com").then((response) =>
 // 		response.json()
 // 	);
 // 	return data;
