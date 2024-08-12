@@ -1,12 +1,4 @@
-import React, { useEffect } from "react";
-import { useLoaderData } from "react-router-dom";
-
-// useEffect(() => {
-// 	const data = fetch("https://cat-fact.herokuapp.com").then((response) =>
-// 		response.json()
-// 	);
-// 	return data;
-// }, []);
+import React from "react";
 
 const Github = () => {
 	return <div>Github followers: </div>;

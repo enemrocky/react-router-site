@@ -1,13 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
 import "./index.css";
 import {
 	createBrowserRouter,
 	createRoutesFromElements,
 	Route,
 	RouterProvider,
-	useLoaderData,
 } from "react-router-dom";
 import Layout from "./Layout.jsx";
 import Home from "./components/Home.jsx";
@@ -23,9 +21,7 @@ const router = createBrowserRouter(
 			<Route path="/about" element={<About />} />
 			<Route path="/contact" element={<Contact />} />
 			<Route path="/github" element={<Github />} />
-			<Route path="/user" element={<User />}>
-				{/* <Route path="user/:userid" loader={data} /> */}
-			</Route>
+			<Route path="/user" element={<User />}></Route>
 		</Route>
 	)
 );
