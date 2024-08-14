@@ -24,6 +24,7 @@ const router = createBrowserRouter(
 			<Route path="user/" element={<User />}>
 				<Route path=":userId" />
 			</Route>
+			{/* for when there are no pages to load */}
 			<Route path="*" element={<p>Not Found</p>} />
 		</Route>
 	)
